@@ -58,14 +58,14 @@ public class TextGame : MonoBehaviour
 
     public void Who()
     {
-        SanityValue += 1;
+        Sanityvalue += 1;
         startofstory = "I like ya! (You live to see the next day)";
         Scene2_Silent.SetActive(false);
     }
 
     public void Sorry()
     {
-        SanityValue -= 1;
+        Sanityvalue -= 1;
         startofstory = "Oh, sorry :( (You live to see the next day)";
     }
 
